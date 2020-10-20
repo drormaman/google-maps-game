@@ -22,7 +22,7 @@ function Map({ center, zoom, clickHandler }) {
 
 	return (
 		<div>
-			<LoadScript googleMapsApiKey="AIzaSyDSrS11g-6lpKBSZ6swuYVSztRlHLYI3a0">
+			<LoadScript googleMapsApiKey=/* INSERT API KEY HERE */>
 				<GoogleMap
 					mapContainerStyle={mapStyles}
 					zoom={zoom}
@@ -51,5 +51,3 @@ function Map({ center, zoom, clickHandler }) {
 }
 
 export default Map;
-
-// "AIzaSyDSrS11g-6lpKBSZ6swuYVSztRlHLYI3a0"
